@@ -1,0 +1,252 @@
+* {
+    padding: 20;
+    margin: 20;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{ background-color: #0201013d;
+font-size:xx-large;
+font-weight: 200;
+font-style: normal;
+align-content: center;
+padding-right: 0ch;
+border-radius: 0cqb;
+}
+
+.pro {
+    height: 100vh;
+    width: 100%;
+    /*background-color: #191919;*/
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: orangered;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: orangered;
+    transition: .4s;
+}
+
+.content {
+
+    margin-top: 20%;
+    left: 8%;
+    transform: translateY(-50%);
+        text-align: center;}
+    
+h1 {
+    color: whitesmoke;
+    margin: 20px 0px 20px;
+    font size: 75px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+        font size: 20px;}
+    
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+   
+    margin-top: 0px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+   
+
+.about-text h5 {
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin bottom: 25px;
+    text-transform: capitalize;}
+    
+
+.about-text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;}
+
+
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me a i{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    flex-direction: column;
+    
+}
+
+footer{
+    width: 100%;
+    
+    background-color: rgba(245, 245, 245, 0.473);
+    text-align: center; 
+}
+
+footer p{
+    color: #fcfc;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.social i{
+    font-size: 50px;
+    color: white;
+    padding-left: 30px;
+    
+}
+
+.social p a{
+    color: white;
+    text-decoration: none;
+  position: relative;
+  bottom: 7px;
+    
+}
+.social p a:hover{
+    color: rgba(255, 174, 0, 0.384);
+}
+
+
+
+
+
+.skill {
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.skill-text h2 {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.skill-text h5 {
+    color: rgba(255, 255, 255, 0.459);
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin bottom: 25px;
+    text-transform: capitalize;
+}
+
+
+.hobbis {
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.hobbis-text h2 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hobbis-ch {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin bottom: 25px;
+    text-transform: capitalize;
+}
+
+h6 a {
+ text-align: center;
+ text-decoration:none;
+ 
+ font-weight: bold;
+ text-transform: capitalize;
+ font-size: 25px;
+
+}
+
+
+h6 a:hover{
+    
+    color: rgba(255, 0, 0, 0.534);
+}
+
+img{
+    width:120px;
+    height: 120px;
+    border-radius: 75px;
+
+}
+html { font-size :200%}
+
+p{font: bold;}
+
+
+
